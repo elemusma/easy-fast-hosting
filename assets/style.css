@@ -1,0 +1,145 @@
+/* navigation menu */
+header{
+    padding: 18px 0;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin: 0 9px;
+}
+nav ul li a {
+    color: white;
+}
+/* general */
+body,html,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.dark-bg{
+    background:#0a183d;
+}
+.light-bg {
+    background: #f7f7f7;
+}
+section.half-half {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(10,24,61,1) 50%);
+}
+section .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.red{
+    color:red;
+}
+/* buttons */
+.btn {
+    color: white;
+    border-radius: 50px !important;
+    padding: 18px 36px !important;
+    text-transform:uppercase;
+    white-space: normal;
+}
+a.btn.primary {
+    background: red;
+}
+a.btn.secondary {
+    background: #383b70;
+}
+a.btn:hover {
+    color: white;
+}
+/* regular links */
+a {
+    color: red;
+}
+a:hover {
+    color: red;
+}
+/* portfolio */
+.hover-effect {
+    transition: all .5s ease-in-out;
+}
+.hover-effect:hover {
+    transform: translateY(-10px);
+}
+/* img */
+.concepts img {
+    border-radius: 40px;
+    margin-bottom: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+/* sub-list */
+i.fa.fa-check-square {
+    margin-right: 27px;
+}
+.sub-list {
+    background: #1c294a;
+    border-radius: 42px;
+    padding-top: 27px;
+}
+.sub-list ul {
+    padding:0;
+}
+.sub-list ul li{
+    margin-bottom: 25px;
+}
+/* fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1;
+}
+h1{
+    font-size: 5rem;
+}
+h2,h3{
+    font-size: 3.5rem;
+}
+.rating {
+    color: #eac73b;
+}
+p {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+.dark-bg p {
+    color: #979dad;
+}
+/* footer */
+footer a {
+    color: inherit;
+}
+footer a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+/* testimonials */
+.testimonial {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 18px 27px;
+    background:white;
+    height:350px;
+}
+.quote {
+    line-height: 1.5;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+.quote .fa{
+    opacity: 0.5;
+}
+.testimonials h4 {
+    margin: 0;
+}
+.testimonials img {
+    max-width: 150px;
+}
+@media screen and (max-width:991px){
+    h1 {
+        font-size: 3rem;
+    }
+    .testimonial{
+        height:unset;
+    }
+}
