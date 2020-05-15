@@ -15,16 +15,10 @@ app.set('view engine', 'ejs');
 app.use('/assets', express.static('assets'));
 
 app.get('/', function(req, res){
-    res.render('index', {
-        title: 'Easy Fast Hosting | Best Hosting Option',
-        content: 'Get the cheapest & fastest hosting available. Starting at $5.95/mo. For the GrowBig plan, you get unlimited websites.'
-    });
+    res.render('index');
 })
 app.use(function(req,res,next){
-    res.status(404).render('404', {
-        title: '404 Page Not Found | Best Hosting Option',
-        content: '404 page not found. Please go back to the homepage and double-check the URL.'
-    });
+    res.status(404).render('404');
 })
 
 app.listen(3000);
